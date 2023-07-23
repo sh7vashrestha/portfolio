@@ -17,3 +17,14 @@
     color: #1d94d4;
   }
 }
+
+.footer{
+  background-color: #1d1d1d;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  color: #ddd;
+  padding: 20px;
+  margin: auto;
+}

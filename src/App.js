@@ -7,6 +7,7 @@ import Project from "./Components/Project";
 import Blog from "./Components/Blog";
 import { useState } from "react";
 import Contact from "./Components/Contact";
+import Footer from "./Components/footer";
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -22,6 +23,7 @@ function App() {
       <Project nav = {nav}/>
       < Blog />
       <Contact />
+      <Footer />
     </div>
   );
 }
