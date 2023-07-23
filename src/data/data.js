@@ -61,7 +61,7 @@ export const projects = {
       des: "HTML, CSS, Vanilla JS",
       image: Tictactoe,
       github: "https://github.com/sh7vashrestha/TICTACTOE",
-      live: "",
+      live: "https://sh7vashrestha.github.io/TICTACTOE/",
     },
   ],
   hardwareData: [
