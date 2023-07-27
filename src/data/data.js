@@ -186,7 +186,8 @@ export const blogData = [
     id: 2,
     title:
       "Google Pixel: State of the art software meets the mediocre hardware.",
-    description: "Google's problem of odinary hardware combined with extraodinary software.",
+    description:
+      "Google's problem of odinary hardware combined with extraodinary software.",
     link: "https://forefronttechno.wordpress.com/2020/07/01/google-pixel-state-of-the-art-software-meets-the-mediocre-hardware/",
   },
   {
@@ -204,7 +205,16 @@ export const blogData = [
   {
     id: 5,
     title: "Future of smartphone",
-    description: "Characteristics of smartphones that will be developed in future.",
+    description:
+      "Characteristics of smartphones that will be developed in future.",
     link: "https://forefronttechno.wordpress.com/2020/05/10/future-of-smartphones/",
   },
-]
+];
+
+export const quotes = [
+  "When you let fear control your life, you end up at a place that's worse than you were trying to avoid.",
+  "We go too far in thinking but forget that destiny is written.",
+  "A voice, not an echo.",
+  "A man of wisdom delights in water.",
+  "Not all those who wander are lost.",
+];
