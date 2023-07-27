@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1546f168.css",
-    "main.js": "/static/js/main.369314e2.js",
+    "main.css": "/static/css/main.286e7765.css",
+    "main.js": "/static/js/main.15e1c19f.js",
     "static/media/resume.pdf": "/static/media/resume.c220f7a833ed004a36d4.pdf",
     "static/media/MahaShivaRatri.png": "/static/media/MahaShivaRatri.f52c8f60b8d9661958e8.png",
     "static/media/8.png": "/static/media/8.2a3e33caf2faef0d4108.png",
@@ -40,11 +40,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.1546f168.css.map": "/static/css/main.1546f168.css.map",
-    "main.369314e2.js.map": "/static/js/main.369314e2.js.map"
+    "main.286e7765.css.map": "/static/css/main.286e7765.css.map",
+    "main.15e1c19f.js.map": "/static/js/main.15e1c19f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1546f168.css",
-    "static/js/main.369314e2.js"
+    "static/css/main.286e7765.css",
+    "static/js/main.15e1c19f.js"
   ]
 }
