@@ -4,10 +4,10 @@ import { Link } from "react-scroll";
 
 function Home() {
   return (
-    <div name="home" className="w-full h-[100vh] bg-[#1e1e1e]">
+    <div name="home" className="w-full sm:h-[100vh] min-h-[100vh] bg-[#1e1e1e]">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-5 flex flex-col justify-center items-center h-full md:flex-row">
-        <div className="flex flex-col flex-1 justify-center max-h-[50%]">
+      <div className="max-w-[1000px] mx-auto my-auto px-5 pt-5 flex flex-col justify-center items-center h-full sm:static absolute md:flex-row">
+        <div className="flex flex-col flex-1 justify-center">
           <p className="text-[#f3f3f3]">Hi, I am</p>
           <h2 className="text-3xl inline sm:text-5xl font-bold text-[#1D94D4]">
             Shiva Shrestha
@@ -20,11 +20,7 @@ function Home() {
             currently studying Engineering in IOE, Paschimanchal Campus.
           </p>
           <div>
-            <Link
-              to="projects"
-              offset={50}
-              smooth={true}
-              duration={800}>
+            <Link to="projects" offset={50} smooth={true} duration={800}>
               <button className=" text-[#f3f3f3] group border-2 px-6 py-3 my-2 flex items-center hover:bg-gradient-to-r from-[#1D94D4] to-cyan-900 hover:border-[#1D94D4]">
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">

@@ -36,13 +36,13 @@ export default function Skill() {
         {/* Another Menu */}
 
         <div
-          className="inline-flex rounded-md shadow-sm max-w-[80%] mx-auto"
+          className="inline-flex rounded-md shadow-sm mx-auto"
           role="group">
           <button
             type="button"
             onClick={handelOnClick}
             value={1}
-            className="inline-flex items-center px-8 sm:px-16 py-4 text-sm align-middle text-center font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-l-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4] ">
+            className="inline-flex items-center px-4 sm:px-16 py-4 text-sm align-middle text-center font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-l-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4] ">
             <svg
               className="w-3 h-3 mr-2"
               aria-hidden="true"
