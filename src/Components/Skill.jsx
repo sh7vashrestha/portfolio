@@ -42,9 +42,9 @@ export default function Skill() {
             type="button"
             onClick={handelOnClick}
             value={1}
-            className="inline-flex items-center px-4 sm:px-16 py-4 text-sm align-middle text-center font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-l-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4] ">
+            className="inline-flex items-center px-2 sm:px-16 py-4 text-xs sm:text-sm align-middle text-center font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-l-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4] ">
             <svg
-              className="w-3 h-3 mr-2"
+              className="w-3 h-3 sm:mr-2 mr-1"
               aria-hidden="true"
               version="1.1"
               fill="currentColor"
@@ -96,9 +96,9 @@ export default function Skill() {
             type="button"
             value={2}
             onClick={handelOnClick}
-            className="inline-flex items-center px-4 sm:px-10 py-4 text-sm font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400  hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4]">
+            className="inline-flex items-center px-2 sm:px-10 py-4 text-xs sm:text-sm font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400  hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4]">
             <svg
-              className="w-5 h-5 mr-2"
+              className="w-5 h-5 sm:mr-2 mr-1 "
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 76 76"
@@ -113,7 +113,7 @@ export default function Skill() {
             type="button"
             value={3}
             onClick={handelOnClick}
-            className="inline-flex items-center px-4 sm:px-10 py-4 text-sm font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-r-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4]">
+            className="inline-flex items-center px-2 sm:px-10 py-4 text-xs sm:text-sm font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-r-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4]">
             <svg
               className="w-3 h-3 mr-2"
               aria-hidden="true"

@@ -39,9 +39,9 @@ function Project({nav}) {
             type="button"
             onClick={handelOnClick}
             value={"webData"}
-            className="inline-flex items-center px-4 sm:px-16 py-4 text-sm align-middle text-center font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-l-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4] ">
+            className="inline-flex items-center px-2 sm:px-16 py-4 text-xs sm:text-sm align-middle text-center font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-l-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4] ">
             <svg
-              className="w-3 h-3 mr-2"
+              className="w-3 h-3 sm:mr-2 mr-1"
               aria-hidden="true"
               version="1.1"
               fill="currentColor"
@@ -93,9 +93,9 @@ function Project({nav}) {
             type="button"
             value={"hardwareData"}
             onClick={handelOnClick}
-            className="inline-flex items-center px-4 sm:px-10 py-4 text-sm font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400  hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4]">
+            className="inline-flex items-center px-2 sm:px-10 py-4 text-xs sm:text-sm font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400  hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4]">
             <svg
-              className="w-5 h-5 mr-2"
+              className="w-5 h-5 sm:mr-2 mr-1"
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 76 76"
@@ -108,9 +108,9 @@ function Project({nav}) {
             type="button"
             value={"graphicData"}
             onClick={handelOnClick}
-            className="inline-flex items-center px-4 sm:px-10 py-4 text-sm font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-r-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4]">
+            className="inline-flex items-center px-2 sm:px-10 py-4 text-xs sm:text-sm font-medium text-[#f3f3f3] bg-[#2e2e2e] border border-gray-400 rounded-r-lg hover:bg-gray-900 hover:text-[#1D94D4] focus:ring-2 focus:ring-[#1D94D4] focus:text-[#1D94D4]">
             <svg
-              className="w-3 h-3 mr-2"
+              className="w-3 h-3 sm:mr-2 mr-1"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -148,10 +148,10 @@ function Project({nav}) {
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-lg
-            flex justify-center text-center items-center mx-auto content-div bg-cover">
+            flex justify-center align-middle text-center items-center mx-auto content-div bg-cover">
               {/* Hover effect for images */}
               <div className="w-[100%] h-[100%] p-2 opacity-0 group-hover:opacity-100 bg-opacity-80 bg-[#1e1e1e]">
-                <span className="text-3xl font-bold text-[#1D94D4] tracking-wider ">
+                <span className="text-2xl sm:text-3xl font-bold text-[#1D94D4] tracking-wider ">
                   {item.name}
                 </span>
                 <br />

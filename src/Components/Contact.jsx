@@ -2,25 +2,25 @@ import React from "react";
 
 function Contact() {
   return (
-    <div name="contact" className="w-full h-[100vh] bg-[#1e1e1e] text-[#fefefe] m-auto">
-      <div className="flex flex-col justify-center items-center w-full min-h-full">
+    <div name="contact" className="w-full h-screen justify-center items-center bg-[#1e1e1e] text-[#fefefe] m-auto">
+      <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-10">
           <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline  text-[#1D94D4] border-b-4 border-cyan-600">
+            <p className="text-3xl sm:text-4xl  font-bold inline  text-[#1D94D4] border-b-2 sm:border-b-4 border-cyan-600">
               Say Hello!
             </p>
           </div>
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-sm sm:text-md p-auto">
+          <div className="sm:text-right text-xs sm:text-md p-auto">
             <p>
               Do you have some big ideas and need help bringing them to
               fruition? Then please reach out, I would love to hear more about
               you, your project and how I can help! Submit the form below or
               send me an email at 
             </p>
-            <p className="text-[#1D94D4] text-base">contact@shivashrestha7.com.np</p>
+            <p className="text-[#1D94D4] text-md sm:text-base">contact@shivashrestha7.com.np</p>
           </div>
           <div>
             <form
