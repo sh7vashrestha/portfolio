@@ -6,7 +6,7 @@ function Home() {
   return (
     <div name="home" className="w-full sm:h-[100vh] min-h-[100vh] bg-[#1e1e1e]">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-5 pt-48 sm:pt-5 flex flex-col justify-center items-center h-full md:flex-row">
+      <div className="max-w-[1000px] mx-auto px-5 pt-36 sm:pt-5 flex flex-col justify-center items-center h-full md:flex-row">
         <div className="flex flex-col flex-1 justify-center">
           <p className="text-[#f3f3f3]">Hi, I am</p>
           <h2 className="text-3xl inline sm:text-5xl font-bold text-[#1D94D4]">
