@@ -7,7 +7,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
-import resume from "../assets/resume.pdf"
+import resume from "../assets/resume.pdf";
 import { Link } from "react-scroll";
 function NavBar({ nav, handelClick }) {
   // const [nav, setNav] = useState(false);
@@ -16,7 +16,7 @@ function NavBar({ nav, handelClick }) {
   // };
 
   return (
-    <div className="fixed w-full h-[85px] flex justify-between items-center px-4 bg-[#1E1E1E] text-[#f4f4f4] z-1">
+    <div className="fixed w-full h-[85px] flex justify-between items-center px-4 bg-[#1E1E1E] text-[#f4f4f4] z-2">
       <div>
         <span>
           <Link to="home" smooth={true} duration={500}>
@@ -33,32 +33,70 @@ function NavBar({ nav, handelClick }) {
 
       <ul className="hidden md:flex">
         <li className="sm:px-4 md:px-6">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} to="home" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            to="home"
+            smooth={true}
+            duration={500}>
             Home
           </Link>
         </li>
         <li className="sm:px-4 md:px-6">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} to="about" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            to="about"
+            smooth={true}
+            duration={500}>
             About
           </Link>
         </li>
         <li className="sm:px-4 md:px-6">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} to="skills" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            to="skills"
+            smooth={true}
+            duration={500}>
             My Skills
           </Link>
         </li>
         <li className="sm:px-4 md:px-6">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} isDynamic to="projects" offset={50} smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            isDynamic
+            to="projects"
+            offset={50}
+            smooth={true}
+            duration={500}>
             Project
           </Link>
         </li>
         <li className="sm:px-4 md:px-6">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} to="blogs" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            to="blogs"
+            smooth={true}
+            duration={500}>
             Blogs
           </Link>
         </li>
         <li className="sm:px-4 md:px-6">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} to="contact" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            to="contact"
+            smooth={true}
+            duration={500}>
             Contact
           </Link>
         </li>
@@ -78,32 +116,76 @@ function NavBar({ nav, handelClick }) {
             : "absolute top-0 left-0 w-full h-screen bg-[#1E1E1E] flex flex-col justify-center items-center z-5"
         }>
         <li className="py-6 text-4xl">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} onClick={handelClick} to="home" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            onClick={handelClick}
+            to="home"
+            smooth={true}
+            duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} onClick={handelClick} to="about" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            onClick={handelClick}
+            to="about"
+            smooth={true}
+            duration={500}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} onClick={handelClick} to="skills" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            onClick={handelClick}
+            to="skills"
+            smooth={true}
+            duration={500}>
             My Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} onClick={handelClick} isDynamic to="projects" offset={50} smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            onClick={handelClick}
+            isDynamic
+            to="projects"
+            offset={50}
+            smooth={true}
+            duration={500}>
             Project
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} onClick={handelClick} to="blogs" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            onClick={handelClick}
+            to="blogs"
+            smooth={true}
+            duration={500}>
             Blogs
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link activeClass="active" activeStyle={{color:"#1D94D4"}} onClick={handelClick} to="contact" smooth={true} duration={500}>
+          <Link
+            activeClass="active"
+            spy={true}
+            activeStyle={{ color: "#1D94D4" }}
+            onClick={handelClick}
+            to="contact"
+            smooth={true}
+            duration={500}>
             Contact
           </Link>
         </li>
