@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b690b718.css",
-    "main.js": "/static/js/main.5ff9ae54.js",
-    "static/media/resume.pdf": "/static/media/resume.c220f7a833ed004a36d4.pdf",
+    "main.js": "/static/js/main.6f5e50af.js",
     "static/media/MahaShivaRatri.png": "/static/media/MahaShivaRatri.f52c8f60b8d9661958e8.png",
     "static/media/8.png": "/static/media/8.2a3e33caf2faef0d4108.png",
     "static/media/rookies.png": "/static/media/rookies.62c10b057cecd63a3eff.png",
@@ -22,6 +21,7 @@
     "static/media/tihar.jpg": "/static/media/tihar.9685dc404329212096ed.jpg",
     "static/media/Dashain.jpg": "/static/media/Dashain.5627bb06b483a747140a.jpg",
     "static/media/Newyear.jpg": "/static/media/Newyear.da7ec82b6f25c0b17062.jpg",
+    "static/media/resume.pdf": "/static/media/resume.797ca15e5714ff109797.pdf",
     "static/media/textmanipulator.jpg": "/static/media/textmanipulator.75f2d81960e5ad808ff5.jpg",
     "static/media/mausam.jpg": "/static/media/mausam.be63032124144ae8231e.jpg",
     "static/media/roboarm.jpg": "/static/media/roboarm.fb168776fec026146c2f.jpg",
@@ -41,10 +41,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.b690b718.css.map": "/static/css/main.b690b718.css.map",
-    "main.5ff9ae54.js.map": "/static/js/main.5ff9ae54.js.map"
+    "main.6f5e50af.js.map": "/static/js/main.6f5e50af.js.map"
   },
   "entrypoints": [
     "static/css/main.b690b718.css",
-    "static/js/main.5ff9ae54.js"
+    "static/js/main.6f5e50af.js"
   ]
 }
