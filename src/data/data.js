@@ -19,6 +19,7 @@ import tihar from "../assets/projects/Graphic Designs/festival/tihar.jpg";
 import projectDemo from "../assets/projects/Graphic Designs/banners/battle.png";
 import battleforspeed from "../assets/projects/Graphic Designs/banners/battleforspeed.jpg";
 import roborookies from "../assets/projects/Graphic Designs/banners/rookies.png";
+import deltaArm from "../assets/projects/deltaArm.jpg";
 
 export const projects = {
   webData: [
@@ -95,6 +96,14 @@ export const projects = {
       des: "Arduino, Flutter",
       image: smartaccesssystem,
       github: "https://github.com/sh7vashrestha/SmartAccessSystem",
+      live: "",
+    },
+    {
+      id: 5,
+      name: "Automated Delta Waste Classifier",
+      des: "Arduino, DeltaKinematics, YOLO",
+      image: deltaArm,
+      github: "https://github.com/sh7vashrestha/DeltaArm",
       live: "",
     },
   ],
