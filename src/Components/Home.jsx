@@ -13,11 +13,9 @@ function Home() {
             Shiva Shrestha
           </h2>
           <h3 className="text-3xl sm:text-2xl font-semibold text-[#8892b0]">
-            I'm a UI and front-end developer
+            I'm an Electronics, Communication and Information Engineer.
           </h3>
           <p className="text-[#8892b0] text-justify py-3 max-w-[700px]">
-            I am a web designer and aspiring data scientist from Nepal. I am
-            currently studying Engineering in IOE, Paschimanchal Campus.
           </p>
           <div>
             <Link to="projects" offset={50} smooth={true} duration={800}>

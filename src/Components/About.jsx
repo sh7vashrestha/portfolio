@@ -21,11 +21,24 @@ function About() {
           </div>
           <div>
             <p>
-              I am a graphic designer, front-end developer and an aspiring Data scientist from Nepal. I love to craft responsive
-              and interactive websites where technology meets creativity.  I am
-              currently studying Electronics, Communication and Information
-              Engineering in IOE, Paschimanchal Campus.
-            </p>
+               Hi,I have recently completed my undergraduate at <a
+                                            href="https://ioepas.edu.np/" target="_blank">Tribhuvan University,
+                                            Institute of Engineering (IOE), Pashchimanchal Campus</a> where I earned a
+                                        Bachelor's degree in Electronics, Communication and Information Engineering
+                                        under the guidance of <a
+                                            href="https://www.researchgate.net/profile/Smita-Adhikari-2"
+                                            target="_blank" className="text-[#1D94D4] hover:text-[#82c4fe] duration-100">Asst. Prof. Smita Adhikari. </a>
+                                            During my time at university, I worked on various embedded systems projects, with a focus on automation and machine learning.</p>
+                                            <br />
+
+                                    <p>I'm also honored to have worked with CTO <a
+                                            href="https://www.linkedin.com/in/bhattaprashant00/" className="text-[#1D94D4] hover:text-[#82c4fe] duration-100" target="_blank"
+                                            >Er. Prashant Bhatta</a> and Embedded System Engineer <a
+                                            href="https://www.linkedin.com/in/amrit-aryal/" className="text-[#1D94D4] hover:text-[#82c4fe] duration-100" target="_blank"
+                                            >Er. Amrit Aryal </a>at <a
+                                            href="https://yarsa.tech/" className="text-[#1D94D4] hover:text-[#82c4fe] duration-100" target="_blank"
+                                            >Yarsa Tech </a>
+                                            </p>
           </div>
         </div>
       </div>
